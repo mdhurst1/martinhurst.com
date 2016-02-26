@@ -11,6 +11,11 @@ Welcome to my personal website. Content will get built up through time.
 === Who am I?
 My name is Martin Hurst.
 
+[[img-myface]] 
+.A picture of my face
+image::my_face.jpg[My Face,200,200]
+
+
 === What do I do?
 I am currently a Quantitative Geomorphologist at the British Geological Survey, and from June 2015 will take up a position as a Lecturer in Physical Geography at the University of Glasgow. 
 I am interested in how landscapes and coasts change over human and geological timescales. 
@@ -18,6 +23,12 @@ I am particularly interested in landscapes and coasts that are eroding.
 My research philosophy focuses on using historical records and primary observations to quantify the rates and processes by which Earth surface changes. 
 In particular, I interogate topographic data for signatures of Earth surface processes. 
 I also devlop and apply numerical models to predict how coasts and landscapes will change in the future. 
+
+=== Follow on Twitter?
+++++
+<a class="twitter-timeline" width="280" height="300" href="https://twitter.com/MartinDHurst" data-widget-id="703250886836015105">Tweets by @MartinDHurst</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+++++
 
 == What is the purpose of all this?
 
