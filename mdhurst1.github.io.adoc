@@ -1,0 +1,70 @@
+= Martin D. Hurst
+Martin Hurst <mhurst@bgs.ac.uk>
+v0.0.1 2016-02-25
+:toc: left
+:numbered:
+:stem: latexmath
+
+Welcome to my personal website. Content will get built up through time.
+
+== About me
+=== Who am I?
+My name is Martin Hurst.
+
+=== What do I do?
+I am currently a Quantitative Geomorphologist at the British Geological Survey, and from June 2015 will take up a position as a Lecturer in Physical Geography at the University of Glasgow. 
+I am interested in how landscapes and coasts change over human and geological timescales. 
+I am particularly interested in landscapes and coasts that are eroding. 
+My research philosophy focuses on using historical records and primary observations to quantify the rates and processes by which Earth surface changes. 
+In particular, I interogate topographic data for signatures of Earth surface processes. 
+I also devlop and apply numerical models to predict how coasts and landscapes will change in the future. 
+
+== What is the purpose of all this?
+
+WARNING: This is my first asciidoctor website.
+
+Thanks to Simon Mudd for introducing me to asciidoctor which seems a really nice way of putting a simple website together
+So far this doesn't seem *too* complicated, though the amount of stuff I had to _install_ was a bit annoying.
+
+NOTE: I am trying to get up to speed quick so I can write all my websites in asciidoctor mode.
+
+== Python
+Today I discovered a fun python trick:
+[source.python]
+----
+import this
+----
+will print a nice poem about python to the console:
+----
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+----
+
+== Mathematical equations
+A really neat thing about asciidoctor is that it will allow me to include mathematical equations on my websites really neatly. 
+This will be really useful for explaining my science and documenting code and models.
+
+As an example, here is a formula for sediment transport on a hillslope (Roering et al. 1999):
+
+latexmath:[q_s = {DS \over 1-({S \over S_c})^2}]
+
+where latexmath:[q_s] is the volumetric sediment flux [m^3^ yr^-1^], latexmath:[D] is a diffusivity coefficient [m^2^ yr^-1^], latexmath:[S] is slope gradient [m/m] and latexmath:[S_c] is a critical slope gradient toward which latexmath:[q_s] tends to infinity.
