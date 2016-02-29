@@ -78,4 +78,30 @@ As an example, here is a formula for sediment transport on a hillslope (Roering 
 
 latexmath:[q_s = {DS \over 1-({S \over S_c})^2}]
 
-where latexmath:[q_s] is the volumetric sediment flux [m^3^ yr^-1^], latexmath:[D] is a diffusivity coefficient [m^2^ yr^-1^], latexmath:[S] is slope gradient [m/m] and latexmath:[S_c] is a critical slope gradient toward which latexmath:[q_s] tends to infinity.
+where latexmath:[q_s] is the volumetric sediment flux [m^3^ yr^-1^], latexmath:[D] is a diffusivity coefficient [m^2^ yr^-1^], 
+latexmath:[S] is slope gradient [m/m] and latexmath:[S_c] is a critical slope gradient toward which latexmath:[q_s] tends to infinity.
+
+== Diagrams
+
+Below is an attempt at a flow diagram. This seems a bit convoluted!
+The asciidoctor text in the source file looks like this:
+
+----
++-------------+        It flow to           +---------------------+
+| This is a   |-------------------------->  | This one is smaller |
+|    box      |       a second box          +---------------------+
++-------------+
+----
+
+The result is this:
+
+[ditaa]
+....
++-------------+        It flow to           +---------------------+
+| This is a   |-------------------------->  | This one is smaller |
+|    box      |       a second box          +---------------------+
++-------------+
+....
+
+Go figure!
+
